@@ -82,5 +82,44 @@
     <br>
     <hr>
     
+    <!--Forms: Forms are used to collect data from the user eg. Sign Up, Log in, Help Request, Contact me
+    
+    Action in Forms: Action attribute is used to define what action needs tp be performed when a form is submitted
+    
+    Label: Label element is useful for screen-reader users
+    
+    Form Element: Input <input type="radio" id="fname" name="fname">-->
+    <form action="/action.php">
+        <label for="uname">Username:</label><br>
+        <input type="text" id="uname" name="uname" placeholder="enter username"><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" name="pass" id="pass" placeholder="enter password"><br>
+        <input style="background-color: blue; color: white; margin-left: 50px;" type="submit" name="Submit" id="submit">
+    </form>
+
+    <!--Class & Id: These attributes is used to specify a unique id & class for an HTML element-->
+    <div id="id1" class="group1"></div><br>
+
+    <!--Checkbox:-->
+    <label for="id1">
+        <input type="checkbox" value="class X" name="Class" id="id1"> Checkbox
+    </label>
+    <br><hr>
+
+    <!--Select & Option:-->
+    <select name="City" id="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Srinagar">Srinagar</option>
+    </select><br><hr>
+    
+    <!--Iframe Tag: Websites inside website-->
+    <iframe src="https://en.wikipedia.org/wiki/HTML" width=" 500px" height="500px">Wikepedia</iframe>
+    <br><hr>
+
+    <!--Video Tag: Add Video to your page-->
+    <video src="video.mp4" controls width="500px">Music</video>
+
+    <!--Video Tag Attributes: Controls, height, width, loop, autoplay-->
+
 </body>
 </html>
