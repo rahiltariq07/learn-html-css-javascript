@@ -1,0 +1,35 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#box2 {
+    top: -20px;
+    left: -25px;
+    position: relative;
+    z-index: 1;
+    background-image: url(demo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box3 {
+    position: relative;
+    left: -200px;
+    top: 50px;
+    z-index: -2;
+}
+
+#box4 {
+    position: relative;
+    left: -300px;
+    top: 20px;
+    z-index: -1;
+}
+
+#box {
+    background-image: url(demo.jpg);
+    background-size: cover;
+}
