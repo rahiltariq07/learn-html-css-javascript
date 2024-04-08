@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Galery</title>
+
+<style>
+
+    body {
+        height: 569px;
+        background-image: linear-gradient(rgb(163, 240, 108), rgb(122, 223, 230));
+    }
+
+    #id1 {
+
+        background-color: lightcyan;
+        height: 500px;
+        display: inline-block;
+        border-radius: 5px;
+        position: fixed;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        right: 50px;
+        text-align: center;
+        box-shadow: 5px 5px 50px black;
+    }
+
+    p {
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    input {
+
+        height: 50px;
+        width: 95px;
+        border: 1.5px solid black;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+
+    #id2 {
+        display: inline-block;
+        height: 35px;
+        width: 200px;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 10px;
+    }
+
+    #img1 {
+        height: 170px;
+        margin-top: 20px;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+
+    #img2 {
+        height: 170px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    
+</style>
+
+</head>
+<body>
+
+    <div id="id1">
+
+        <h1>Photo Gallery</h1> <br>
+
+        <p>Enter the number of photos</p>
+
+        <form action="/action.php">
+            <input type="number" placeholder="enter number">
+        </form><br>
+
+        <div id="id2" style="background-color: black;">GET PHOTOS</div><br>
+        
+        <img src="images.jpg" alt="image" id="img2">
+        <img id="img1" src="follower.jpeg" alt="follower">
+        
+    </div>
+</body>
+</html>
