@@ -1,0 +1,28 @@
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 1s;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition: all 2s ease-in 1s;
+}
+
+div:hover /*cursor*/ {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+div:active /*click*/ {
+    background-color: pink;
+}
