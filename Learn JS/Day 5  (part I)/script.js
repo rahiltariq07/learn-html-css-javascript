@@ -1,42 +1,44 @@
-// For Loop
+// Comment Loops before browsing
 
-// for (let i = 1; i <= 5; i++) {
-//     console.log("i=", i);
-// }
+For Loop
 
-// Whie Loop
+for (let i = 1; i <= 5; i++) {
+    console.log("i=", i);
+}
 
-// let i = 1;
-// while (i<=5) {
-//     console.log("i=" , i);
-//     i++;
-// }
+Whie Loop
 
-// Do-While Loop
+let i = 1;
+while (i<=5) {
+    console.log("i=" , i);
+    i++;
+}
 
-// let i = 1;
-// do {
-//     console.log("i=", i);
-//     i++;
-// } while (i<=5);
+Do-While Loop
 
-// For-Of Loop
+let i = 1;
+do {
+    console.log("i=", i);
+    i++;
+} while (i<=5);
 
-// let str = "Rahil";
+For-Of Loop
 
-// for (let i of str) {
-//     console.log("i=", i);
-// }
+let str = "Rahil";
 
-// For-In Loop
+for (let i of str) {
+    console.log("i=", i);
+}
 
-// let student = {
-//     name: "Rahil Tariq",
-//     age: "20",
-//     cgpa: "7.5",
-//     isPass: true
-// };
+For-In Loop
 
-// for (let key in student) {
-//     console.log(key, student[key]);
-// }
+let student = {
+    name: "Rahil Tariq",
+    age: "20",
+    cgpa: "7.5",
+    isPass: true
+};
+
+for (let key in student) {
+    console.log(key, student[key]);
+}
