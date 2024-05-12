@@ -1,3 +1,3 @@
 # learn-html-css-javascript
 
-I am learning HTML, css and javascript from tutorials
+I am learning HTML, CSS and javascript from tutorials
