@@ -1,6 +1,6 @@
 .box1 {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-color: aqua;
     border: 2px solid black;
     transition-property: all;
@@ -10,8 +10,8 @@
 }
 
 .box2 {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-color: aqua;
     border: 2px solid black;
     transition: all 2s ease-in 1s;
